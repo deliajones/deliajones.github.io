@@ -1,9 +1,9 @@
 body {
-	background-color: navy;
+	background-color: navy; font-family: arial, sans-serif;
 }
 h1 {
 	color: white;
 }
 p {
-	color: beige;
+	color: lightsteelblue;
 }

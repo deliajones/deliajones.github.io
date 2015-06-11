@@ -1,5 +1,8 @@
 body {
 	background-color: rgb(16,35,114);
+	background-image: url("../images/cup_with_bed.png");
+	background-size: cover;
+	background-repeat: none;
 	font-family: 'Mandali', sans-serif;
 }
 h1 {

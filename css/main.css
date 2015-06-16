@@ -6,7 +6,7 @@ body {
 	background-attachment:fixed;
 	color:#fff;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size:14px;
+	font-size:18px;
 	line-height: 175%;
 }
 h1 {
@@ -20,7 +20,7 @@ ul {
 	color: #dbd0a0;
 	font-style: italic;
 	font-size: 1.5em;
-	font-weight: 900;
+	font-weight: 700;
 	text-transform: uppercase;
     border-spacing: 20px;
 }
@@ -29,7 +29,24 @@ div {
     margin: 40px;
     padding: 40px;
     max-width: 40%;
+}
+.ghost-button {
+	color: #dbd0a0;
+	border: 1px solid #dbd0a0;
+	font-size: 14px; text-align: center;
+	padding: 8px 8px;
+	font-weight: normal;
+	margin: 6px 0;
+	margin-right: 12px;
+	display: inline-block;
+	text-decoration: none;
+	min-width: 120px;
+}
+.ghost-button:hover, .ghost-button:active {
+	color:#fff;
+	background:#009688;
 }    
 a:link {
     color:#fff;
+    text-decoration: none;
 }

@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:200,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:300,600,900|Lora:400);
 
 body {
 	background-color: #fff;
@@ -6,50 +6,50 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	color: #fff;
+	color: #b8b8b8;
 }
 div	{
 	width: 40%;
 	margin: 3em;
-	background-color: navy;
+	background-color: rgba(16,23,53,.8);
 	padding: 3em;
 }
 p   {
-	font-size: 16px;
-	font-family: 'Source Sans Pro' sans-serif;
-	font-weight: 200;
+	font-size: 14px;
+	font-family: 'Lora' sans-serif;
+	font-weight: 400;
 	line-height: 2em;
-	letter-spacing: 2px;
 }
 h1 	{
 	color: #fd6;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: 'Lobster' serif;
 	font-weight: 400;
 	line-height: 1em;
 }
 h2	{
-	color: #e0e0e0;
+	color: #fd6;
 	font-size: 1em;
 	font-family: 'Source Sans Pro' sans-serif;
-	font-weight: 700;
-	line-height: 1em;
+	font-weight: 300;
+	line-height: 1.5em;
 	text-transform: uppercase; letter-spacing: 3px;
 }
 h3	{
 	color: #e0e0e0;
-	font-size: .75em;
+	font-size: 1em;
 	font-family: 'Source Sans Pro' sans-serif;
-	font-weight: 300;
-	line-height: 1em;
+	font-weight: 600;
+	line-height: 1.5em;
 	text-transform: uppercase; letter-spacing: 3px
 }
 ul {
-    font-size: 16px;
-	font-family: 'Source Sans Pro' sans-serif;
-	font-weight: 300;
-	line-height: 1.5em;
     list-style-type: none;
+    line-height: 2em;
+}
+a:link	{
+	color: #b8b8b8;
+	text-decoration: none;
 }
 #slogan {
 	color: #dbd0a0;

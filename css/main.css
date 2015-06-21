@@ -1,5 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:200,700,900);
+
 body {
-	background-color: rgb(16,35,114);
+<<<<<<< HEAD
+	background-color: #fff;
+	background-image: url("../images/cup_with_bed.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+=======
+	background-color: #fff);
 	background-image: url("../images/cup_with_bed.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -7,13 +17,51 @@ body {
 	color:#fff;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:18px;
-	line-height: 175%;
+	line-height:175%;
+	margin-top:0px;
+>>>>>>> origin/master
 }
-h1 {
-	font-size:3em;
-    margin-left: 40px; margin-top: 20px;
+div	{
+	width: 40%;
+	margin: 3em;
+	background-color: rgba(16,35,114,.8);
+	padding: 3em;
+}
+p   {
+	font-size: 16px;
+	font-family: 'Source Sans Pro' sans-serif;
+	font-weight: 200;
+	line-height: 2em;
+	letter-spacing: 2px;
+}
+h1 	{
+	color: #fd6;
+	font-size: 3em;
+	font-family: 'Lobster' serif;
+	font-weight: 400;
+	line-height: 1em;
+}
+h2	{
+	color: #e0e0e0;
+	font-size: 1em;
+	font-family: 'Source Sans Pro' sans-serif;
+	font-weight: 700;
+	line-height: 1em;
+	text-transform: uppercase; letter-spacing: 3px;
+}
+h3	{
+	color: #e0e0e0;
+	font-size: .75em;
+	font-family: 'Source Sans Pro' sans-serif;
+	font-weight: 300;
+	line-height: 1em;
+	text-transform: uppercase; letter-spacing: 3px
 }
 ul {
+    font-size: 16px;
+	font-family: 'Source Sans Pro' sans-serif;
+	font-weight: 300;
+	line-height: 1.5em;
     list-style-type: none;
 }
 #slogan {
@@ -23,30 +71,4 @@ ul {
 	font-weight: 700;
 	text-transform: uppercase;
     border-spacing: 20px;
-}
-div {
-    background-color: rgba(16,35,114,.75);
-    margin: 40px;
-    padding: 40px;
-    max-width: 40%;
-}
-.ghost-button {
-	color: #dbd0a0;
-	border: 1px solid #dbd0a0;
-	font-size: 14px; text-align: center;
-	padding: 8px 8px;
-	font-weight: normal;
-	margin: 6px 0;
-	margin-right: 12px;
-	display: inline-block;
-	text-decoration: none;
-	min-width: 120px;
-}
-.ghost-button:hover, .ghost-button:active {
-	color:#fff;
-	background:#009688;
-}    
-a:link {
-    color:#fff;
-    text-decoration: none;
 }

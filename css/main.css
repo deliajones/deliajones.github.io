@@ -1,34 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:200,700,900);
 
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	background-color: #fff;
-	background-image: url("../images/cup_with_bed.png");
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/73/The_Milky_Way_and_Andromeda_Galaxies.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #fff;
-=======
-=======
->>>>>>> origin/master
-	background-color: #fff);
-	background-image: url("../images/cup_with_bed.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	color:#fff;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:18px;
-	line-height:175%;
-	margin-top:0px;
-<<<<<<< HEAD
->>>>>>> origin/master
 }
 div	{
 	width: 40%;
 	margin: 3em;
-	background-color: rgba(16,35,114,.8);
+	background-color: navy;
 	padding: 3em;
 }
 p   {
@@ -44,8 +27,6 @@ h1 	{
 	font-family: 'Lobster' serif;
 	font-weight: 400;
 	line-height: 1em;
-=======
->>>>>>> origin/master
 }
 h2	{
 	color: #e0e0e0;

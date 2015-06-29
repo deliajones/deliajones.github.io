@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,600|Lora:400);
-
 * {
-	border: 1px solid red !important;
+	border: 1px solid red;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 body {
 	font-size: 18px;

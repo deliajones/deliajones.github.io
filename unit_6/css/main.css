@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,500,800);
 
 * {
-	border: 0px solid red;
+	border: 1px solid red;
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
@@ -9,7 +9,7 @@
 
 body {
 	background: #fff;
-	color: #000;
+	color: #222;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -25,16 +25,16 @@ header {
 }
 
 nav {
-	display: inline block;
+	display: block;
 	width: 100%;
 	height: 30px;
 	float: left;
 }
 
-a {
+nav a {
   	background: #ffb85f;
   	color: #fff;
-  	display: inline block;
+  	display: inline-block;
   	margin: 0;
   	padding: 10px;
   	text-decoration: none;
@@ -42,7 +42,7 @@ a {
   	width: 100%;
 }
 
-a:hover {
+nav a:hover {
   	background-color: #ff7a5a;
 }
 
@@ -62,36 +62,19 @@ aside {
 
 figure {
 	float: left;
-    margin: 0 10px 10px 0;
-    padding: 0 10px 10px 0;
-    width: 28%;
+	margin: 0 10px 10px 0;
+	padding: 0 10px 10px 0;
+	width: 28%;
+}
+figcaption {
+	font-size: 1em;
+	padding: 4px 0 0 0;
 }
 
 img {
   	display: inline-block;
  	width: 100%;
  }
-
- .blogpic {
- 	border-style: 2px solid #fff;
- 	display: inline block;
- 	padding: 0 10px 10px 0;
- 	width: 30%;
- 	float: left;
- }
-
- .blogblurb {
- 	display: inline block;
- 	padding: 0 10px 20px 0;
- 	width: 70%;
-  	float: left;
- }
-
-figcaption {
-	font-size: 1em;
-	padding: 4px 0 0 0;
-}
-
 footer {
 	background: #00aaa0;
 	height: 2em;
@@ -109,7 +92,6 @@ h1 {
 }
 
 h2 {
-	font-color: #000;
 	font-size: 1.5em;
 	font-weight: 500;
 }
@@ -125,16 +107,23 @@ b {
 }
 
 p 	{
-	clear: both;
 	font-size: .8em;
 	line-height: 1.5em;
 }
 
-p nav {
-	font-size: .6em;
+.blogpic {
+ 	border: 2px solid #fff;
+ 	padding: 0 10px 10px 0;
 }
-
-p blog {
-	font-size: 1em;
+.blogpic img, .blogpic p {
+	float:left;
+	padding:1em;
+	width:50%;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
 	clear: both;
 }

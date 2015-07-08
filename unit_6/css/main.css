@@ -1,125 +1,136 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300,500,800);
-
 * {
-	border: 1px solid red;
-	margin:0;
-	padding:0;
+	border: 0px solid red;
 	box-sizing:border-box;
+	margin:0;
+	padding:0;;
 }
 
 body {
 	background: #fff;
-	color: #222;
-	font-family: 'Alegreya Sans', sans-serif;
+	color: #2a2a2a;
+	font-family: 'Istok', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
-	font-weight: 300;
 }
 
 header {
-	background: #ff7a5a;
-	display: block;
-	margin: 0 auto;
-	padding: 10px 0 0 40px;
-	width: 100%;
-	height: 6em;
+	background: #3bb1ad;
+	color: #fff;
+	padding: 30px 40px 0 40px;
+	height: 80px;
 }
 
 nav {
-	display: block;
-	width: 100%;
-	height: 30px;
-	float: left;
+	background: #3bb1ad;
+	clear: both;
+	padding: 0 40px 0 0;
 }
 
-nav a {
-  	background: #ffb85f;
-  	color: #fff;
-  	display: inline-block;
-  	margin: 0;
-  	padding: 10px;
-  	text-decoration: none;
-  	text-transform: uppercase;
-  	width: 100%;
+nav a {	
+	background: #3bb1ad;
+	color: #fff;
+	display: inline-block;
+	font-size: .8em;
+	float: right;
+	padding: 0 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 nav a:hover {
-  	background-color: #ff7a5a;
+	background-color: #eeb91f;
 }
 
 section {
-	padding: 0;
-	margin: 14px 0 10px 40px;
+	background: #fff;
 	float: left;
-	width: 52%;
-}
-aside {
-	background: #ffdaad;
-	margin: 0 auto;
-	padding: 20px 24px 20px 24px;
-	float: left;
-	width: 28%;
-}
-
-figure {
-	float: left;
-	margin: 0 10px 10px 0;
-	padding: 0 10px 10px 0;
-	width: 28%;
-}
-figcaption {
-	font-size: 1em;
-	padding: 4px 0 0 0;
-}
-
-img {
-  	display: inline-block;
- 	width: 100%;
- }
-footer {
-	background: #00aaa0;
-	height: 2em;
-	margin: 0;
-	padding: 40px;
+	padding: 20px 0 0 40px;
 	clear: both;
+	width: 62%;
 }
 
-h1,h2,h3 {
-	line-height: 2.5em;
+footer {
+	background: #ee5d3a;
+	clear: both;
+	padding: 30px 0 40px 40px;
 }
+
 h1 {
-	color: #fff;
-	font-size: 2.2em;
+	font-size: 2em;
+	font-weight: 400;
 }
 
 h2 {
-	font-size: 1.5em;
-	font-weight: 500;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	padding: 0 0 10px 0;
+}
+figure {
+	background: #fff;
+	display: inline-block;
+	float: left;
+	padding: 0 20px 0 0;
+	width: 33.333%;
 }
 
-h3 {
+img {
+	width: 100%;
+	float: left;
+}
+
+img.sidebar {
+	border: 2px solid #fff;
+	width: 100%;
+	float: left;
+}
+
+figcaption {
+	color: red;
+	font-size: 1em;
+	padding: 20px 0 10px 0;
+}
+
+aside {
+	background: #eeb91f;
+	float: left;
+	width: 38%;
+	padding: 20px 0 30px 30px;
+}
+
+.blogentry {
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+.blogthumb {
+	float: left;
+	display: inline-block;
+	padding: 10px 10px 10px 0;
+	width: 30%;
+}
+
+.blogintro {
+	float: left:;
+	display: inline-block;
+	width: 70%;
+	padding: 10px 40px 10px 10px;
+}
+
+p {
+	font-size: .8em;
+	font-weight: 400;
+	line-height: 1.25em;
+}
+
+p.foot {
 	color: #fff;
 	font-size: .8em;
-	font-weight: 300;
+	font-weight: 400;
+	line-height: 1.25em;
 }
 
-b {
-	font-weight: 800;
-}
-
-p 	{
-	font-size: .8em;
-	line-height: 1.5em;
-}
-
-.blogpic {
- 	border: 2px solid #fff;
- 	padding: 0 10px 10px 0;
-}
-.blogpic img, .blogpic p {
-	float:left;
-	padding:1em;
-	width:50%;
-}
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 

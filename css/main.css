@@ -1,25 +1,56 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:300,600,900|Lora:400);
 
+* {
+	border: 1px solid red;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;;
+}
+
 body {
 	background-color: #fff;
 	background-image: url("images/The_Milky_Way_and_Andromeda_Galaxies.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
 	color: #d3d3d3;
+	clear: both;
 }
 header {
 	width: 100%;
 	background-color: rgba(16,23,53,.7);
-	padding: 60em;
+	padding: 2em;
 	height: 100px;
+	clear: both;
+	padding: 20px;
+	text-align: center;
+}
+
+nav {
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav a {
+	padding: 10px;
+	clear: both;
+	display: inline-block;
+	width: 100px;
+	clear: both;
 }
 
 section {
 	display: block;
 	width: 100%;
-	background:-color: #d3d3d3;
+	background-color: #d3d3d3;
 	clear: both;
+	padding: 6em;
+	text-align: center;
 }
 
 footer {
@@ -30,8 +61,8 @@ footer {
 }
 
 p   {
-	font-size: 14px;
-	font-weight: 400;
+	font-size: 1em;
+	font-weight: 300;
 	line-height: 1.75em;
 }
 p.footnote	{
@@ -40,9 +71,9 @@ p.footnote	{
 }
 h1 	{
 	color: #fd6;
-	font-size: 2.5em;
-	font-weight: 400;
-	line-height: .5em;
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 2em;
 }
 h2	{
 	color: #fd6;
@@ -59,25 +90,15 @@ h3	{
 	line-height: 1.5em;
 	text-transform: uppercase; letter-spacing: 3px;
 }
-ul {
-    font-size: 14px;
-	font-family: 'Lora' sans-serif;
-	font-weight: 400;
-	line-height: 2em;
-	list-style-type: none;
-    line-height: 1.75em;
-    margin: 0;
-    padding: 0;
-}
 a:link	{
 	color: #fd6;
 	text-decoration: none;
 }
-#slogan {
-	color: #fff;
-	font-style: italic;
-	font-size: 1.5em;
-	font-weight: 700;
-	text-transform: uppercase;
-    border-spacing: 20px;
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }

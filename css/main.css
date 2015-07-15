@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Martel+Sans:200,300,600,800|Cabin+Sketch:400);
 
 * {
+<<<<<<< HEAD
 	border: 0px solid red;
 	box-sizing:border-box;
 	margin:0;
@@ -17,6 +18,56 @@ html {
 body {
 	font-family: 'Martel Sans', Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	border: 1px solid red;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;;
+}
+
+body {
+	background-color: #fff;
+	background-image: url("images/The_Milky_Way_and_Andromeda_Galaxies.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color: #d3d3d3;
+	clear: both;
+}
+header {
+	width: 100%;
+	background-color: rgba(16,23,53,.7);
+	padding: 2em;
+	height: 100px;
+	clear: both;
+	padding: 20px;
+	text-align: center;
+}
+
+nav {
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav a {
+	padding: 10px;
+	clear: both;
+	display: inline-block;
+	width: 100px;
+	clear: both;
+}
+
+section {
+	display: block;
+	width: 100%;
+	background-color: #d3d3d3;
+	clear: both;
+	padding: 6em;
+>>>>>>> origin/master
 	text-align: center;
 }
 
@@ -27,6 +78,7 @@ header {
 	margin: 0 none;
 }
 
+<<<<<<< HEAD
 h1 {
 	color: rgba(255,255,255,.8);
 	font-family: 'Cabin Sketch';
@@ -34,6 +86,22 @@ h1 {
 	font-weight: 200;
 	line-height: 1.5em;
 	text-transform: uppercase;
+=======
+p   {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+p.footnote	{
+	font-size: 0.2em;
+	line-height: 1em;
+}
+h1 	{
+	color: #fd6;
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 2em;
+>>>>>>> origin/master
 }
 
 h2 {
@@ -51,6 +119,7 @@ h3 {
 	line-height: 1em;
 	text-transform: uppercase;
 }
+<<<<<<< HEAD
 
 p {
 	color: #fff;
@@ -76,10 +145,15 @@ nav a {
 	font-size: .9em;
 	font-weight: 200;
 	width: 16em;
+=======
+a:link	{
+	color: #fd6;
+>>>>>>> origin/master
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 nav a:link	{
 	color: #fff;
 	text-decoration: none;
@@ -114,6 +188,14 @@ section.twitter {
 
 img {
 	width: 100%;
+=======
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+>>>>>>> origin/master
 }
 
 img.round {

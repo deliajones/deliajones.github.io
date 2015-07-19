@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+=======
+@import url(http://fonts.googleapis.com/css?family=Martel+Sans:200,300,600,800|Cabin+Sketch:400);
+>>>>>>> origin/master
 
 * {
 	border: 0px solid red;
@@ -15,9 +19,14 @@ html {
 }
 
 body {
+<<<<<<< HEAD
 	font-family: 'Varela Round', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.25em;
+=======
+	font-family: 'Martel Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+>>>>>>> origin/master
 	text-align: center;
 }
 
@@ -30,7 +39,13 @@ header {
 
 h1 {
 	color: rgba(255,255,255,.8);
+<<<<<<< HEAD
 	font-size: 2.5em;
+=======
+	font-family: 'Cabin Sketch';
+	font-size: 2.5em;
+	font-weight: 200;
+>>>>>>> origin/master
 	line-height: 1.5em;
 	text-transform: uppercase;
 }
@@ -38,6 +53,10 @@ h1 {
 h2 {
 	color: rgb(109,174,219);
 	font-size: 1.25em;
+<<<<<<< HEAD
+=======
+	font-weight: 200;
+>>>>>>> origin/master
 	line-height: 1.25em;
 	text-transform: uppercase;
 }
@@ -45,6 +64,10 @@ h2 {
 h3 {
 	color: #fff;
 	font-size: 1em;
+<<<<<<< HEAD
+=======
+	font-weight: 300;
+>>>>>>> origin/master
 	line-height: 1em;
 	text-transform: uppercase;
 }
@@ -53,6 +76,10 @@ p {
 	color: #fff;
 	font-size: 1em;
 	line-height: 2em;
+<<<<<<< HEAD
+=======
+	font-weight: 200;
+>>>>>>> origin/master
 
 }
 nav {
@@ -70,6 +97,10 @@ nav a {
 	padding: .75em;
 	margin: .5em;
 	font-size: .9em;
+<<<<<<< HEAD
+=======
+	font-weight: 200;
+>>>>>>> origin/master
 	width: 16em;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -82,17 +113,26 @@ nav a:link	{
 
 nav a:hover	{
 	color: rgb(12,11,43);
+<<<<<<< HEAD
+=======
+	font-weight: 600;
+>>>>>>> origin/master
 	text-decoration: none;
 	background-color: rgb(255,240,124);
 }
 
 section {
 	margin: 1em;
+<<<<<<< HEAD
 	padding: 0 2em 0 2em;
+=======
+	padding: 0 1em 0 1em;
+>>>>>>> origin/master
 	display: block;
 	clear: both;
 }
 
+<<<<<<< HEAD
 .headline {
 	padding: 0;
 }
@@ -102,6 +142,17 @@ section {
 }
 
 .twitter {
+=======
+section.headline {
+	padding: 0;
+}
+
+section.photos {
+	padding: 0 1em .5em 1em;
+}
+
+section.twitter {
+>>>>>>> origin/master
 	margin: 1em;
 	width: 100%;
 }

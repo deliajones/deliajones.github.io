@@ -1,97 +1,135 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:300,600,900|Lora:400);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 * {
-	border: 1px solid red;
+	border: 0px solid red;
 	box-sizing:border-box;
 	margin:0;
 	padding:0;;
 }
 
-body {
-	background-color: #fff;
-	background-image: url("images/The_Milky_Way_and_Andromeda_Galaxies.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
-	color: #d3d3d3;
-	clear: both;
+html {
+    background: no-repeat center center fixed;
+    background-image: url("../images/The_Milky_Way_and_Andromeda_Galaxies.jpg");
+    background-color: #0c0b2b;
+    background-size: cover;
 }
-header {
-	width: 100%;
-	background-color: rgba(16,23,53,.7);
-	padding: 2em;
-	height: 100px;
-	clear: both;
-	padding: 20px;
+
+body {
+	font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.25em;
 	text-align: center;
 }
 
+header {
+	padding: 2em 3em 0 3em;
+	clear: both;
+	background-color: rgba(12,11,43,.5);
+	margin: 0 none;
+}
+
+h1 {
+	color: rgba(255,255,255,.8);
+	font-size: 2.5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: rgb(109,174,219);
+	font-size: 1.25em;
+	line-height: 1.25em;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+p {
+	color: #fff;
+	font-size: 1em;
+	line-height: 2em;
+
+}
 nav {
-	background-color: rgba(0,0,0,.5);
-	text-align: center;
-	display: inline-block;
-	padding: 10px;
-	margin: 10px;
+	background-color: rgba(12,11,43,.5);
+	padding: 1em 3em 1em 3em;
+	width: 100%;
+	clear: both;
 }
 
 nav a {
-	padding: 10px;
-	clear: both;
+	background-color: rgba(12,11,43,1);
+	border: 1px solid rgb(109,174,219);
+	color: rgb(255,240,124);
 	display: inline-block;
-	width: 100px;
-	clear: both;
+	padding: .75em;
+	margin: .5em;
+	font-size: .9em;
+	width: 16em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:link	{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover	{
+	color: rgb(12,11,43);
+	text-decoration: none;
+	background-color: rgb(255,240,124);
 }
 
 section {
+	margin: 1em;
+	padding: 0 2em 0 2em;
 	display: block;
-	width: 100%;
-	background-color: #d3d3d3;
 	clear: both;
-	padding: 6em;
-	text-align: center;
+}
+
+.headline {
+	padding: 0;
+}
+
+.photos {
+	padding: 0 1em .5em 1em;
+}
+
+.twitter {
+	margin: 1em;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+img.round {
+	width: 5.5em;
+	height: 5.5em;
+	border-radius: 50%;
+	margin: 0 none;
+	padding: .3em;
 }
 
 footer {
-	display: block;
-	width: 100;
-	background: blue;
-	clear: both;
+	width: 100%;
+	padding: 2em 3em 3em 3em;
+	background-color: rgba(0,0,0,.6);
+	height: 100%;
+	text-decoration: none;
+	font-size: .7em;
+	color: rgb(109,174,219);
 }
 
-p   {
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 1.75em;
-}
-p.footnote	{
-	font-size: 0.2em;
-	line-height: 1em;
-}
-h1 	{
-	color: #fd6;
-	font-size: 3em;
-	font-weight: 300;
-	line-height: 2em;
-}
-h2	{
-	color: #fd6;
-	font-size: 1.25em;
-	font-weight: 300;
-	line-height: 1.25em;
-	text-transform: uppercase; letter-spacing: 3px;
-}
-h3	{
-	color: #fff;
-	font-size: 1em;
-	font-family: 'Source Sans Pro' sans-serif;
-	font-weight: 600;
-	line-height: 1.5em;
-	text-transform: uppercase; letter-spacing: 3px;
-}
-a:link	{
-	color: #fd6;
+footer a {
+	color: rgb(255,240,124);
 	text-decoration: none;
 }
 

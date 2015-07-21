@@ -4,7 +4,7 @@
 	border: 0px solid red;
 	box-sizing:border-box;
 	margin:0;
-	padding:0;;
+	padding:0;
 }
 
 html {
@@ -30,7 +30,7 @@ header {
 h1 {
 	color: rgba(255,255,255,.8);
 	font-family: 'Cabin Sketch';
-	font-size: 2.5em;
+	font-size: 4em;
 	font-weight: 200;
 	line-height: 1.5em;
 	text-transform: uppercase;
@@ -38,7 +38,7 @@ h1 {
 
 h2 {
 	color: rgb(109,174,219);
-	font-size: 1.25em;
+	font-size: 2em;
 	font-weight: 200;
 	line-height: 1.25em;
 	text-transform: uppercase;
@@ -46,10 +46,11 @@ h2 {
 
 h3 {
 	color: #fff;
-	font-size: 1em;
+	font-size: 1.75em;
 	font-weight: 300;
 	line-height: 1em;
 	text-transform: uppercase;
+    padding: 0 0 1em 0;
 }
 
 p {
@@ -71,9 +72,9 @@ nav a {
 	border: 1px solid rgb(109,174,219);
 	color: rgb(255,240,124);
 	display: inline-block;
-	padding: .75em;
+	padding: .85em;
 	margin: .5em;
-	font-size: .9em;
+	font-size: 1.25em;
 	font-weight: 200;
 	width: 16em;
 	text-decoration: none;
@@ -99,15 +100,11 @@ section {
 	clear: both;
 }
 
-section.headline {
-	padding: 0;
-}
-
-section.photos {
+div photos {
 	padding: 0 1em .5em 1em;
 }
 
-section.twitter {
+div twitter {
 	margin: 1em;
 	width: 100%;
 }
@@ -117,8 +114,8 @@ img {
 }
 
 img.round {
-	width: 5.5em;
-	height: 5.5em;
+	width: 6.5em;
+	height: 6.5em;
 	border-radius: 50%;
 	margin: 0 none;
 	padding: .3em;
@@ -130,13 +127,14 @@ footer {
 	background-color: rgba(0,0,0,.6);
 	height: 100%;
 	text-decoration: none;
-	font-size: .7em;
+	font-size: 1em;
 	color: rgb(109,174,219);
 }
 
 footer a {
 	color: rgb(255,240,124);
 	text-decoration: none;
+    height: 4em, auto;
 }
 
 .clearfix:after { 

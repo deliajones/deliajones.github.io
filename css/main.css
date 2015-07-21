@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 * {
-	border: 0px solid red;
+	border: 1px solid red;
 	box-sizing:border-box;
 	margin:0;
 	padding:0;
@@ -18,13 +18,13 @@ body {
 	font-family: "Varela Round", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.25em;
-	text-align: center;
+	text-align: left;
 }
 
 header {
-	padding: 2em 3em 0 3em;
+	padding: 2em 3em 0 4em;
 	clear: both;
-	background-color: rgba(12,11,43,.5);
+	background-color: rgba(2,4,38,.5);
 	margin: 0 none;
 }
 
@@ -62,7 +62,8 @@ p {
 nav {
 	background-color: rgba(12,11,43,.5);
 	padding: 1em 3em 1em 3em;
-	width: 100%;
+	width: 100%
+	float: left;
 	clear: both;
 }
 
@@ -73,7 +74,12 @@ nav a {
 	display: inline-block;
 	padding: .85em;
 	margin: .5em;
+<<<<<<< Updated upstream
 	font-size: 1.25em;
+=======
+	float: left;
+	font-size: .9em;
+>>>>>>> Stashed changes
 	width: 16em;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -92,7 +98,7 @@ nav a:hover	{
 
 section {
 	margin: 1em;
-	padding: 0 2em 0 2em;
+	padding: 0 2em 0 4em;
 	display: block;
 	clear: both;
 }
@@ -123,8 +129,13 @@ img {
 }
 
 img.round {
+<<<<<<< Updated upstream
 	width: 6.5em;
 	height: 6.5em;
+=======
+	width: 6em;
+	height: 6em;
+>>>>>>> Stashed changes
 	border-radius: 50%;
 	margin: 0 none;
 	padding: .3em;
@@ -152,4 +163,14 @@ footer a {
 	display: block; 
 	height: 0; 
 	clear: both;
+}
+
+@media only screen (max-width: 800px) {
+	nav a {
+		margin: 1em;
+	}
+	img {
+		height: 4em;
+		width: 4em;
+	}
 }

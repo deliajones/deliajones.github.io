@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Martel+Sans:200,300,600,800|Cabin+Sketch:400);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 * {
 	border: 0px solid red;
@@ -15,8 +15,9 @@ html {
 }
 
 body {
-	font-family: 'Martel Sans', Helvetica, Arial, sans-serif;
+	font-family: "Varela Round", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	line-height: 1.25em;
 	text-align: center;
 }
 
@@ -29,7 +30,6 @@ header {
 
 h1 {
 	color: rgba(255,255,255,.8);
-	font-family: 'Cabin Sketch';
 	font-size: 4em;
 	font-weight: 200;
 	line-height: 1.5em;
@@ -57,9 +57,8 @@ p {
 	color: #fff;
 	font-size: 1em;
 	line-height: 2em;
-	font-weight: 200;
-
 }
+
 nav {
 	background-color: rgba(12,11,43,.5);
 	padding: 1em 3em 1em 3em;
@@ -75,7 +74,6 @@ nav a {
 	padding: .85em;
 	margin: .5em;
 	font-size: 1.25em;
-	font-weight: 200;
 	width: 16em;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -88,25 +86,36 @@ nav a:link	{
 
 nav a:hover	{
 	color: rgb(12,11,43);
-	font-weight: 600;
 	text-decoration: none;
 	background-color: rgb(255,240,124);
 }
 
 section {
 	margin: 1em;
-	padding: 0 1em 0 1em;
+	padding: 0 2em 0 2em;
 	display: block;
 	clear: both;
 }
 
-div photos {
+div.photos {
 	padding: 0 1em .5em 1em;
 }
 
-div twitter {
+div.twitter {
 	margin: 1em;
 	width: 100%;
+}
+
+.headline {
+	padding: 0;
+}
+
+.photos {
+	padding: 0 1em .5em 1em;
+}
+
+.twitter {
+	padding: 0;
 }
 
 img {
@@ -123,7 +132,7 @@ img.round {
 
 footer {
 	width: 100%;
-	padding: 2em 3em 3em 3em;
+	padding: 2em 3em 3em 0;
 	background-color: rgba(0,0,0,.6);
 	height: 100%;
 	text-decoration: none;

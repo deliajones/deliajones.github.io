@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen:300,400,700);
 
 * {
-	border: 0px solid red;
+	border: 1px solid red;
 	box-sizing:border-box;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ body, a {
 header {
     padding: 4em  0 1em 4em;
 	clear: both;
-	margin: 0 none;
+	margin: 0;
 }
 
 h1 {
@@ -48,8 +48,13 @@ h3 {
 
 p {
 	color: #fff;
-	font-size: .75em;
+	font-size: .65em;
 	line-height: 2em;
+}
+
+p.introtxt {
+	font-size: 1em;
+
 }
 
 nav {
@@ -111,7 +116,6 @@ a {
 	margin: 1em 0 0 0;
 	width: 20%;
 	margin: 1em;
-	height: 100%;
 	display: inline-block;
 	float: left;
 }
@@ -119,9 +123,8 @@ a {
 footer {
 	background-color: rgb(0,0,0);
 	width: 100%;
-	margin: 0, none;
-	padding: 4em;
-	height: 100%;
+	margin: 0;
+	padding: 1em 4em 3em;
 	clear: both;
 }
 
@@ -134,7 +137,6 @@ footer a {
 	color: rgb(255,240,124);
 	font-size: 1em;
 	text-decoration: none;
-    height: 4em, auto;
 }
 
 .clearfix:after { 

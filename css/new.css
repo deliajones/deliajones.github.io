@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Work+Sans:300,500,700);
+
+* {
+	border: 1px solid red;
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    background: no-repeat center center fixed;
+    background-image: url("../bg.jpg");
+    background-size: cover;
+}
+
+body, a {
+	bakground-color: #000;
+	font-family: "Work Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #f6f6f6;
+	text-align: left;
+}
+
+nav {
+	padding: 1em;
+	margin: 1em;
+	height: 2em;
+	width: 100%;
+	float: left;
+	display: inline-block;
+	clear: both;
+}
+
+nav a {
+	padding: 1em;
+	margin: 1em
+	font-size: .75em;
+	width: 8em;
+	text-decoration: none;
+	text-transform: uppercase; letter-spacing: .2em;
+}
+
+nav a:link	{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover	{
+	color: #fff;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	margin: 1em;
+	padding: 1em;
+}
+
+.container {
+	margin: 1em;
+	padding: 1em;
+	display: block;
+	clear: both;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+    nav a {
+    margin: 0 1em 1em;
+  }
+  	.column1, .column2, .column3 {
+  	float: none;
+  	clear: both;
+  	margin: .5em;
+  }
+}

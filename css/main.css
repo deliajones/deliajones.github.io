@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oxygen:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Work+Sans:300,500,700);
 
 * {
 	border: 1px solid red;
@@ -15,8 +15,10 @@ html {
 }
 
 body, a {
-	font-family: "Oxygen", Helvetica, Arial, sans-serif;
+	font-family: "Work Sans", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	font-weight: 300;
+	color: #f6f6f6;
 	text-align: left;
 }
 
@@ -47,14 +49,8 @@ h3 {
 }
 
 p {
-	color: #fff;
 	font-size: .65em;
 	line-height: 2em;
-}
-
-.introtxt {
-	font-size: 1em;
-
 }
 
 nav {
@@ -62,15 +58,14 @@ nav {
 	height: 2em;
 	width: 100%;
 	float: left;
-	display: block;
+	display: inline-block;
 	clear: both;
 }
 
 nav a {
 	color: rgb(255,240,124);
-	display: inline-block;
 	padding: 1em 4em 1em 0;
-	margin: 0, none;
+	margin: 0 4em 0 4em;
 	font-size: .75em;
 	width: 8em;
 	text-decoration: none;
@@ -91,32 +86,32 @@ img {
 	width: 100%;
 }
 
-.container {
-	background-color: rgb(0,0,0);
-	margin: 0, none;
-	padding: 1em 4em 1em 4em;
-	width: 100%;
-	display: block;
-	clear: both;
-}
-
 a {
 	text-decoration: none;
 }
 
+.container {
+	background-color: rgb(0,0,0);
+	margin: 1em 4em 4em 0;
+	padding: 0;
+	display: block;
+	clear: both;
+}
+
 .intro {
 	font-size: 1.25em;
-	width: 20%;
-	margin: 1em 1em 1em 0;
+	width: 25%;
+	margin: 0 0 0 4em;
+	padding: 1em 1em 1em 0;
 	float: left;
 	display: inline-block;
 	clear: both;
 }
 
 .column1, .column2, .column3 {
-	margin: 1em 0 0 0;
+	margin: 0 0 0 4em;
+	padding: 1em 4em 4em 4em;
 	width: 20%;
-	margin: 1em;
 	display: inline-block;
 	float: left;
 }

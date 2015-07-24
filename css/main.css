@@ -1,13 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Work+Sans:300,500,700);
 
 * {
-	border: 0px solid red;
+	border: 1px solid red;
 	box-sizing:border-box;
 	margin: 0;
 	padding: 0;
 }
 
 html {
+    
     background: no-repeat center center fixed;
     background-size: cover;
     background-color: #000;
@@ -24,7 +25,8 @@ body, a {
 }
 
 header {
-    background-image: url("../images/bg.jpg");padding: 6em 0 1em 4em;
+	background-image: url("../images/bg.jpg");
+    padding: 4em 0 1em 4em;
 	clear: both;
 	margin: 0;
 }
@@ -55,23 +57,26 @@ p {
 }
 
 nav {
-	background-color: #000;
-	margin: 1em 6em 1em 6em;
+	background-color: #003056;
+	font-size: .6em;
+	font-weight: 300;
+	margin: 0;
+	padding: 1em 4em .5em 4em;
 	width: 100%;
-	text-align: right;
+	height: 100%;
 	float: left;
+	text-align: right;
 	display: inline-block;
 	clear: both;
+	text-transform: uppercase;
 }
 
 nav a {
-	color: rgb(255,240,124);
-	padding: 0 6em 0 0;
-	margin: 1em;
-	font-size: .75em;
-	text-decoration: none;
-	text-transform: uppercase;
-	clear: both;
+	background-color: #003056;
+	padding: 0 1em 1em 2em;
+	text-align: center;
+	width: 3em;
+	display: inline block;
 }
 
 nav a:link	{
@@ -93,10 +98,10 @@ a {
 }
 
 .container {
-	margin: 1em 4em 0 4em;
-	padding: 0;
+	background-color: #000;
+	margin: 0 4em 0 4em;
+	padding: 1em 4em 0 0;
 	width: 100%;
-	display: block;
 	clear: both;
 }
 
@@ -151,7 +156,7 @@ footer a {
     nav a {
     margin: 0 1em 1em;
   }
-  	.column1, .column2, .column3 {
+  	.intro .column1, .column2, .column3 {
   	float: none;
   	clear: both;
   	margin: .5em;

@@ -23,7 +23,7 @@ header div {
 	padding:4em;
 }
 nav {
-	background-color: #003056;
+	background-color: rgb(17,8,49);
 	text-align: right;
 	text-transform: uppercase;
 }
@@ -67,8 +67,6 @@ p {
 	line-height: 1.5em;
 }
 
-
-
 img {
 	width: 100%;
 }
@@ -78,7 +76,7 @@ a {
 }
 
 .container {
-	background-color: #000;
+	background-color: rgba(0,0,0,.2);
 	margin: 0 4em 0 4em;
 	padding: 1em 4em 0 0;
 	width: 100%;
@@ -91,14 +89,18 @@ a {
 	padding: 1em 1em 1em 0;
 	float: left;
 }
-
+.column1, .column2, .column3 a {
+	margin: 0 4em;
+	padding: 1em;
+	width: 24em;
+	float: left;
+}
 .column1, .column2, .column3 {
-	margin: 0;
+	margin: 0 4em;
 	padding: 1em;
 	width: 25%;
 	float: left;
 }
-
 footer {
 	background-color: rgb(0,0,0);
 	color: rgb(109,174,219);

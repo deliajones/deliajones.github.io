@@ -71,7 +71,7 @@ p.intro {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 img.social {
@@ -92,7 +92,7 @@ a {
 
 .column2, .column3, .column4 {
 	padding: .5em;
-	width: 33.33%
+	width: 33.33%;
 	float: left;
 	padding: 1em;
 }

@@ -92,6 +92,7 @@ a {
 	width: 20%;
 	float: left;
 	padding: 1em;
+	background-color: rgba(0,0,0,.5);
 }
 
 .ghost-button {

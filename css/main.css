@@ -17,10 +17,6 @@ body {
 	text-align: left;
 }
 
-header div {
-	margin: 3em 3em 0 3em;
-	padding: 1em;
-}
 nav {
 	background-color: rgb(17,8,49);
 	text-align: right;
@@ -39,6 +35,12 @@ nav a {
 nav a:hover	{
 	color: #ccc;
 }
+
+header {
+	margin: 2em 3em 1e 3em;
+	padding: 1em;
+}
+
 h1 {
 	color: #fff;
 	font-size: 3em;
@@ -48,7 +50,7 @@ h1 {
 h2 {
 	color: #00D3FF;
 	font-size: 1em;
-	line-height: 1.2em;
+	line-height: 2em;
 	text-transform: uppercase;
 	letter-spacing: .2em;
 }
@@ -56,44 +58,53 @@ h2 {
 h3 {
 	color: #00D3FF;
 	font-size: 1.25em;
-	line-height: 1.5em;
+	line-height: 1.7em;
 }
 
 p {
-	font-size: .8em;
+	font-size: .9em;
 	line-height: 1.4em;
 }
 
 p.intro {
-	font-size: .5em;
+	font-size: 1.1em;
 }
 
 img {
-	max-width: 80%;
+	max-width: 100%;
+}
+
+img.social {
+	width: 2em;
 }
 
 a {
 	text-decoration: none;
 }
 
-.wrapper {
-	background-color: rgb(0,0,0.7);
+.wrapper.clearfix {
+	background-color: rgba(0,0,0,.5);
+	content: ".";
+	display: block;
+	clear: both;
 }
 
-.intro {
-	font-size: 1.3em;
-	width: 20%;
-	margin: 0 1em 0 3em;
-	padding: 1em 0 0 1em;
+.column1 {
+	margin: 1em 1em 1em 3em;
+	padding: 1em;
+	width: 21%;
 	float: left;
-
+	display: inline-block;
 }
-.column1, .column2, .column3 {
+
+.column2, .column3, .column4 {
+	margin: 1em;
+	padding: .5em;
 	width: 20%;
 	float: left;
 	padding: 1em;
 	background-color: rgba(0,0,0,.5);
-}
+	display: inline-block;
 
 .ghost-button {
   	display: inline-block;
@@ -102,7 +113,6 @@ a {
   	margin: 1em 0;
   	color: #d2d2d2;
   	border: 1px solid #fff;
-  	border-radius: 3px;
   	text-align: center;
   	outline: none;
   	text-decoration: none;
@@ -150,7 +160,7 @@ footer a {
   	width: 100%;
   }
 
-  .intro, .column1, .column2, .column3 {
+  .column1, .column2, .column3, .column4 {
   	float: none;
   	width: 100%;
   	margin: 1em;
